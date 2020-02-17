@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/song_switch"
+    android:layout_width="140dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/albumButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:width="140dp"
+        android:height="140dp"
+        android:background="@drawable/katana_zero_aa"
+        app:layout_constraintBottom_toTopOf="@+id/overViewFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/overViewFrame"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@color/textLowLight"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/nameplate"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="bottom|start"
+            android:singleLine="true"
+            android:text="@string/filler_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/timeplate"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:text="@string/sample_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mt Moon</string>
+    <string name="action_settings">Settings</string>
+    <string name="sought">This is what we wanted, isn\'t it?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="sample_text">Here Lies the Sample Text</string>
+    <string name="filler_title">Club Serene</string>
+    <string name="sample_time">-0:26</string>
+    <string name="request">Please Choose a Song</string>
+    <string name="bluetooth_paired">Paired Devices: </string>
+    <string name="bluetooth_query">Available Devices: </string>
+</resources>
